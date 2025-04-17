@@ -809,7 +809,7 @@ window.addEventListener("load", () => {
       .then(() => {
         const ping = Math.round(performance.now() - pingStart);
         document.getElementById("val-ping").textContent = ping;
-        setCircleProgress("ring-ping", ping, 30 ms); // max 300ms
+        setCircleProgress("ring-ping", ping, 1000); // max 300ms
       });
   });
 
