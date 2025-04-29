@@ -23,96 +23,362 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+  
 <body>
-  <!-- Loading Spinner -->
-  <div id="loading-overlay">
-    <div class="spinner"></div>
+<div id="loading-overlay">
+  <div class="spinner"></div>
+</div>
+  
+<header style="background-color: #003366; color: white; padding: 60px 20px;">
+  <div style="max-width: 1000px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px;">
+
+    <!-- Profilbild -->
+    <div>
+      <img src="1725696491757.jpg" alt="Wael Kheshfeh" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 5px solid white; box-shadow: 0 0 15px rgba(0,0,0,0.3);">
+    </div>
+
+    <!-- Text & Animationen -->
+    <div style="text-align: center;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Wael Kheshfeh</h1>
+      <p style="font-size: 1.2rem; margin-bottom: 20px;">⚙️ R&D Developer &nbsp;𖬺&nbsp; 🤖 AI Researcher</p>
+
+      <!-- AI-GIFs -->
+     <!--  <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="AI Brain" style="width: 80px; border-radius: 12px;">
+        <img src="https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif" alt="AI Data" style="width: 80px; border-radius: 12px;">
+        <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Code Animation" style="width: 80px; border-radius: 12px;">
+      </div>-->
+    </div>
+
+  </div>
+</header>
+
+
+  <section>
+    <h2>About Me</h2>
+    <p>Shaping the future of technology: Master’s degree in Artificial Intelligence and Computer Engineering, currently a Research Associate and Software Developer, specializing in the design and development of IIOT-platforms that enhance value networks, optimize manufacturing processes, and integrate AI solutions in IoT environments.</p>
+  </section>
+
+<section class="professional-experience" style="background-color: #f9f9f9; padding: 60px 20px;">
+  <div style="max-width: 1100px; margin: 0 auto;">
+    <h2 style="text-align: center; color: #002244; font-size: 2.5rem; margin-bottom: 50px; font-weight: bold;">
+      Professional Experience
+    </h2>
+
+    <!-- Experience Card Template -->
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Research Associate – Hochschule Magdeburg-Stendal</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">January 2025 – Present | Full-time | On-site</p>
+      <p style="margin-bottom: 10px;">
+        Leading research in cognitive assistance systems and embedded Industrial IoT (IIoT) for CNC-based manufacturing. Developing smart control systems using digital twins and AI for intelligent feedback and regulation.
+      </p>
+      <p><strong>Key Skills:</strong> OPC UA, Microservices, Eclipse BaSyx, Industrie 4.0</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Master Thesis – Friedrich-Schiller-Universität Jena</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">August 2024 – November 2024 | Full-time | Hybrid</p>
+      <p style="margin-bottom: 10px;">
+        Conducted thesis titled <em>"Interaction between the recognition of content-coherent text segments and the recognition of entities in German biomedical texts."</em> Applied advanced NLP techniques to extract semantic and entity structures.
+      </p>
+      <p><strong>Key Skills:</strong> NLP, PyTorch, TensorFlow, LaTeX, Biomedical Text Mining</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Research Associate – Universitätsklinikum Jena</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">February 2022 – September 2024 | Full-time | Hybrid</p>
+      <p style="margin-bottom: 10px;">
+        Contributed to the SMITH project to enhance clinical data integration through HL7 and FHIR standards. Visualized healthcare data with Power BI and ensured data quality and interoperability.
+      </p>
+      <p><strong>Key Skills:</strong> FHIR, HL7, JavaScript, Python, Data Engineering, Ubuntu</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Junior Software Developer – Abbe Center of Photonics</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">November 2021 – December 2021 | Part-time | Hybrid</p>
+      <p style="margin-bottom: 10px;">
+        Supported development of AR/VR simulations for virtual optics labs using Unity, in collaboration with Max Planck School of Photonics and Lichtwerkstatt Jena.
+      </p>
+      <p><strong>Key Skills:</strong> Unity, C#, JavaScript, Visual Studio</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Bachelor Thesis / Junior Software Tester – DKFZ Heidelberg</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">March 2021 – June 2021 | Full-time | Hybrid</p>
+      <p style="margin-bottom: 10px;">
+        Built a unit testing system for <a href="https://github.com/e0404/matRad" target="_blank" style="color: #0055a5;">matRad</a>, an open-source radiotherapy planning framework. Contributed to validation workflows in clinical research.
+      </p>
+      <p><strong>Key Skills:</strong> Matlab, LaTeX</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px; margin-bottom: 35px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Intern – Daimler AG</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">March 2020 – August 2020 | Full-time | Hybrid</p>
+      <p style="margin-bottom: 10px;">
+        Supported the design and deployment of digital twin models for production facilities. Contributed to agile development processes and factory visualization using Scrum.
+      </p>
+      <p><strong>Key Skills:</strong> C++, SQL, Microsoft SQL Server, Scrum</p>
+    </div>
+
+    <div class="experience-card" style="background: #ffffff; border-left: 6px solid #0055a5; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 25px 30px;">
+      <h3 style="color: #003366; font-size: 1.4rem; margin-bottom: 5px;">Tutor – Lernstudio Barbarossa / MegaKids</h3>
+      <p style="color: #777; font-style: italic; margin-bottom: 15px;">November 2018 – March 2020 | Part-time | On-site</p>
+      <p style="margin-bottom: 10px;">
+        Delivered academic tutoring in math, computer science, and German. Enhanced students' learning outcomes across diverse age groups and educational backgrounds.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills & Technologies</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    
+   
+
+    <!-- Python -->
+    <a href="https://www.python.org/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" alt="Python Logo" />
+    </a>
+
+    <!-- Docker -->
+    <a href="https://www.docker.com/" target="_blank" class="tech-card">
+      <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo" />
+    </a>
+
+    <!-- Kubernetes -->
+    <a href="https://kubernetes.io/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" alt="Kubernetes Logo" />
+    </a>
+
+    <!-- FastAPI -->
+    <a href="https://fastapi.tiangolo.com/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/FastAPI_logo.svg" alt="FastAPI Logo" />
+    </a>
+
+    <!-- Node-RED -->
+    <a href="https://nodered.org/" target="_blank" class="tech-card">
+      <img src="https://nodered.org/about/resources/media/node-red-icon.png" alt="Node-RED Logo" />
+    </a>
+
+    <!-- PostgreSQL -->
+    <a href="https://www.postgresql.org/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL Logo" />
+    </a>
+
+    <!-- JavaScript -->
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" />
+    </a>
+
+    <!-- PyTorch -->
+    <a href="https://pytorch.org/" target="_blank" class="tech-card">
+      <img src="https://pytorch.org/assets/images/pytorch-logo.png" alt="PyTorch Logo" />
+    </a>
+
+    <!-- OPC UA -->
+    <a href="https://opcfoundation.org/about/opc-technologies/opc-ua/" target="_blank" class="tech-card">
+      <img src="https://getvectorlogo.com/wp-content/uploads/2019/02/opc-unified-architecture-ua-vector-logo.png" alt="OPC UA Logo" />
+    </a>
+
+    <!-- MQTT -->
+    <a href="https://mqtt.org/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Mqtt-hor.svg" alt="MQTT Logo" />
+    </a>
+
+    <!-- Angular -->
+    <a href="https://angular.io/" target="_blank" class="tech-card">
+      <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" />
+    </a>
+
+    <!-- REST API -->
+    <a href="https://restfulapi.net/" target="_blank" class="tech-card">
+      <img src="rest-api-icon.png" alt="REST API Logo" />
+    </a>
+
+    <!-- Grafana -->
+    <a href="https://grafana.com/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg" alt="Grafana Logo" />
+    </a>
+
+    <!-- MySQL -->
+    <a href="https://www.mysql.com/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg" alt="MySQL Logo" />
+    </a>
+
+    <!-- Power BI -->
+    <a href="https://powerbi.microsoft.com/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" />
+    </a>
+
+    <!-- C++ -->
+    <a href="https://isocpp.org/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" />
+    </a>
+
+    <!-- C# -->
+    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# Logo" />
+    </a>
+
+    <!-- Java -->
+    <a href="https://www.java.com/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Java Logo" />
+    </a>
+
+    <!-- Industrie 4.0 -->
+    <a href="https://www.plattform-i40.de/" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Logo_der_Plattform_Industrie_4_0.png" alt="Industrie 4.0 Logo" />
+    </a>
+
+    <!-- VR -->
+    <a href="https://en.wikipedia.org/wiki/Virtual_reality" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/VR_Logo_Virtual_Reality_Logo.svg" alt="VR Logo" />
+    </a>
+
+    <!-- devops -->
+    <a href="https://azure.microsoft.com/de-de/resources/cloud-computing-dictionary/what-is-devops" target="_blank" class="tech-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg" alt="DEVOBS Logo" />
+    </a>
+
+
+    <!-- HL7 -->
+<a href="https://www.hl7.org/" target="_blank" class="tech-card">
+  <img src="https://www.hl7.org/assets/systemimages/hl7-logo-header.png" alt="HL7 Logo" />
+</a>
+
+<!-- FHIR -->
+<a href="https://www.hl7.org/fhir/" target="_blank" class="tech-card">
+  <img src="https://www.hl7.org/fhir/assets/images/fhir-logo-www.png" alt="FHIR Logo" />
+</a>
+
+<!-- CQL -->
+<a href="https://build.fhir.org/ig/HL7/cql/" target="_blank" class="tech-card">
+  <img src="https://cql.hl7.org/assets/images/cql-logo.png" alt="CQL Logo" />
+</a>
+
+<!-- SQL -->
+<a href="https://www.w3schools.com/sql/" target="_blank" class="tech-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL Logo" />
+</a>
+
+<!-- FHIR Search -->
+<a href="https://www.hl7.org/fhir/search.html" target="_blank" class="tech-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/FHIR_resource_graph.png" alt="FHIR Search Logo" />
+</a>
+
+<!-- GraphQL -->
+<a href="https://graphql.org/" target="_blank" class="tech-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL Logo" />
+</a>
+
+
+    <!-- huggingface -->
+<a href="https://huggingface.co/" target="_blank" class="tech-card">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HG Face Logo" />
+</a>
+
+
+    
   </div>
 
-  <!-- Back to Top Button -->
-  <button id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <section>
+  
 
-  <!-- Main Header -->
-  <header>
-    <div class="header-content">
-      <img src="1725696491757.jpg" alt="Wael Kheshfeh" class="profile-pic" />
-      <h1>Wael Kheshfeh</h1>
-      <p>⚙️ R&D Developer &nbsp;𖬺&nbsp; 🤖 AI Researcher</p>
-    </div>
-  </header>
+        <div data-aos="fade-up" style="font-size: 20px; center; font-weight: bold;">
+        👋 Connect With Me!
+        </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Master’s degree in Artificial Intelligence and Computer Engineering. Research Associate and Developer designing IIoT platforms that enhance value networks, optimize manufacturing, and integrate AI solutions into industrial systems.</p>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience">
-    <h2>Professional Experience</h2>
-    <!-- Each card -->
-    <div class="card">
-      <h3>Research Associate – Hochschule Magdeburg-Stendal</h3>
-      <span>January 2025 – Present | Full-time | On-site</span>
-      <p>Leading research in cognitive assistance systems, smart IIoT controls, and digital twins using AI.</p>
-      <strong>Skills: OPC UA, Microservices, Eclipse BaSyx, Industrie 4.0</strong>
-    </div>
-
-    <div class="card">
-      <h3>Master Thesis – Friedrich-Schiller-Universität Jena</h3>
-      <span>August 2024 – November 2024 | Full-time | Hybrid</span>
-      <p>Advanced NLP techniques applied to biomedical texts for entity and semantic extraction.</p>
-      <strong>Skills: NLP, PyTorch, TensorFlow, LaTeX</strong>
-    </div>
-
-    <div class="card">
-      <h3>Research Associate – Universitätsklinikum Jena</h3>
-      <span>February 2022 – September 2024 | Full-time | Hybrid</span>
-      <p>Improved healthcare data integration through FHIR/HL7 standards and Power BI visualizations.</p>
-      <strong>Skills: HL7, FHIR, JavaScript, Python, Data Engineering</strong>
-    </div>
-
-    <!-- Add more cards here if needed -->
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills & Technologies</h2>
-    <div class="skills-grid">
-      <div class="skill">Python</div>
-      <div class="skill">Docker</div>
-      <div class="skill">Kubernetes</div>
-      <div class="skill">FastAPI</div>
-      <div class="skill">Node-RED</div>
-      <div class="skill">PostgreSQL</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">PyTorch</div>
-      <div class="skill">OPC UA</div>
-      <div class="skill">MQTT</div>
-      <div class="skill">Angular</div>
-      <div class="skill">Grafana</div>
-      <div class="skill">MySQL</div>
-      <div class="skill">Power BI</div>
-      <div class="skill">C++</div>
-      <div class="skill">Java</div>
-      <div class="skill">Industrie 4.0</div>
-      <div class="skill">HL7/FHIR</div>
+      
+    <div class="modern-buttons">
+      <a href="mailto:mohamad.kheshfeh@h2.de" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://www.linkedin.com/in/wael-kheshfeh-18149b18b/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Connect with Me</h2>
-    <div class="contact-links">
-      <a href="mailto:mohamad.kheshfeh@h2.de" target="_blank" class="btn"><i class="fas fa-envelope"></i> Email</a>
-      <a href="https://www.linkedin.com/in/wael-kheshfeh-18149b18b/" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    </div>
-  </section>
+  
+<section style="padding: 40px; background-color: #f0f4f8;">
+  <div style="display: flex; justify-content: center; gap: 60px; align-items: center; flex-wrap: wrap; font-size: 18px;">
 
+    <!-- Besucherzähler -->
+    <div class="info-box">
+      <div class="icon">👁‍🗨</div>
+      <div>
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=waeel1937.wael.github.io" alt="Visitor badge" style="margin-top: 5px;">
+      </div>
+    </div>
+
+    <!-- Letzte Aktualisierung -->
+    <div class="info-box">
+      <div class="icon">🕒</div>
+      <div>
+        <p id="lastUpdated" style="margin: 5px 0 0;">Loading...</p>
+      </div>
+    </div>
+
+
+
+    
+
+    <!-- Dark Mode Toggle -->
+    <div class="info-box">
+      <div class="icon">🌓</div>
+      <div>
+        <button onclick="document.body.classList.toggle('dark')" class="toggle-btn">Toggle</button>
+      </div>
+    </div>
+
+    
+ <!-- Speed -->
+<div class="speed-dashboard">
+  <div class="speed-circle">
+    <div class="speed-number"><span id="speed-download">--</span><small> Mbps</small></div>
+  </div>
+
+<div class="circle-dashboard">
+  <div class="circle-item">
+    <svg class="circle-ring">
+      <circle class="bg" r="40" cx="50" cy="50"/>
+      <circle class="progress" r="40" cx="50" cy="50" id="ring-download"/>
+    </svg>
+    <div class="circle-label">
+      <strong id="val-download">--</strong><span>Mbps</span><br>⬇ Download
+    </div>
+  </div>
+
+  <div class="circle-item">
+    <svg class="circle-ring">
+      <circle class="bg" r="40" cx="50" cy="50"/>
+      <circle class="progress" r="40" cx="50" cy="50" id="ring-battery"/>
+    </svg>
+    <div class="circle-label">
+      <strong id="val-battery">--</strong><span>%</span><br>🔋 Battery
+    </div>
+  </div>
+
+  <div class="circle-item">
+    <svg class="circle-ring">
+      <circle class="bg" r="40" cx="50" cy="50"/>
+      <circle class="progress" r="40" cx="50" cy="50" id="ring-ping"/>
+    </svg>
+    <div class="circle-label">
+      <strong id="val-ping">--</strong><span>ms</span><br>🚦 Ping
+    </div>
+  </div>
+</div>
+
+    
+
+  </div>
+</section>
+
+
+  
   <footer>
-    <p>© 2025 Wael Kheshfeh – All rights reserved.</p>
+    © 2025 Wael Kheshfeh – All rights reserved.
   </footer>
-
+  
+  
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
